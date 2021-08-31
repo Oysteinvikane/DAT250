@@ -6,7 +6,7 @@ Links to heroku are posted at the bottom of the report.
 ### Technical problems that occured and how to solve them
 
 During the installation of the software development environment i did not encounter any technical problems, 
-the reason for that is that i already had it all set up from last year where we had a project were we used maven/springboot together with heroku for a CI/CD pipeline.
+the reason for that is that i already had it all set up from last year where we had a project were we used maven/springboot together with github actions for a CI/CD pipeline.
 
 ### How to validate the software development environment is working
 I have checked that the environment worked by checking all versions of the software i used to be up to date and seamingless pushing it to git and deploying to heroku without any issues.
