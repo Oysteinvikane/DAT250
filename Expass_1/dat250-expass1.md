@@ -13,7 +13,7 @@ I have checked that the environment worked by checking all versions of the softw
 
 ### Technical problems encountered with Heroku and solution
 I only encountered with Heroku since i am on a free option, so i already 5 projects and had to delete some of them to be able to add new ones without paying.\
-Also had to skip the add-on part since i didn't want to put my credit card in to do that step.
+I also had to skip the add-on part since i didn't want to put my credit card in to do that step.
 
 ### Results
 So the results from the experiment was that i got to do everything in the experiment without any issues (if you dont count deleting already existing heroku deployments).
