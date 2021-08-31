@@ -12,7 +12,8 @@ the reason for that is that i already had it all set up from last year where we 
 I have checked that the environment worked by checking all versions of the software i used to be up to date and seamingless pushing it to git and deploying to heroku without any issues.
 
 ### Technical problems encountered with Heroku and solution
-The only problem i encountered with Heroku was that i had already 5 projects and had to delete some of them to be able to add new ones without paying.
+The only problem i encountered with Heroku was that i am on a free option, so i already 5 projects and had to delete some of them to be able to add new ones without paying./
+Also had to skip the add-on part since i didn't want to put my credit card in to do that step.
 
 ### Results
 So the results from the experiment was that i got to do everything in the experiment without any issues (if you dont count deleting already existing heroku deployments).
