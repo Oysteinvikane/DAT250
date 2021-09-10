@@ -23,4 +23,28 @@
         </properties>
 
     </persistence-unit>
+
+	<persistence-unit name="credit" transaction-type="RESOURCE_LOCAL">
+
+
+        <class>no.hvl.dat250.jpa.basicexample.Credit.Address</class>
+        <class>no.hvl.dat250.jpa.basicexample.Credit.Bank</class>
+        <class>no.hvl.dat250.jpa.basicexample.Credit.Card</class>
+		<class>no.hvl.dat250.jpa.basicexample.Credit.Person</class>
+		<class>no.hvl.dat250.jpa.basicexample.Credit.Pin</class>
+
+
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+                      <!-- TODO Change the path in the value here! -->
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:derby:C:\Users\hvika\Desktop\DAT250Code\expass2\creditDB;create=true"/>
+            <property name="javax.persistence.jdbc.user" value="test"/>
+            <property name="javax.persistence.jdbc.password" value="test"/>
+
+            <property name="eclipselink.ddl-generation" value="create-tables"/>
+            <property name="eclipselink.ddl-generation.output-mode" value="database"/>
+        </properties>
+
+    </persistence-unit>
 </persistence>
