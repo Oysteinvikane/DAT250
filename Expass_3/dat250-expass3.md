@@ -1,8 +1,15 @@
-## Experiment Assignment 2
+## Experiment Assignment 3
 
-### Technical problems that i've encountered during installation and use of JPA and how to resolve
+### Technical problems i've encountered during installation and use of MongoDB and how to resolve them
 
-### How to inspect the database tables and what tables were created
+### Screenshots
+#### Validation of the installation package
+
+#### Results obtained during Experiment 1
+
+#### Experiment 2 example
+
+### Why Map-reduce operation in Experiment 2 is useful and interpretation of the collection obtained.
 
 ### Pending issues with the assignment that i've not yet solved
 
