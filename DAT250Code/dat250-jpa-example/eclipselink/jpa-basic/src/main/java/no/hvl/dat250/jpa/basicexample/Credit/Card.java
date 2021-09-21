@@ -9,9 +9,12 @@ import javax.persistence.OneToOne;
 
 import lombok.Data;
 
+import java.util.ArrayList;
+import java.util.function.IntFunction;
+
 @Entity
 @Data
-public class Card {
+public class Card extends ArrayList<Card> {
 	@Id
 	@GeneratedValue(strategy = GenerationType.TABLE)
 	private int number;
@@ -19,8 +22,9 @@ public class Card {
 	private int balance;
 	
 	@OneToOne
-	private Pin pin;
+	public Pin pin;
 	
 	@ManyToOne
-	private Bank bank;
+	public Bank bank;
+
 }

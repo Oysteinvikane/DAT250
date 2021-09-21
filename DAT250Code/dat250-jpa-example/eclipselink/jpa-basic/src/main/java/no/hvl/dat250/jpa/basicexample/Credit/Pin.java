@@ -9,6 +9,7 @@ import lombok.Data;
 @Data
 public class Pin {
 	@Id
-	private String pin;
-	private int count;
+	public String pin;
+
+	public int count;
 }
