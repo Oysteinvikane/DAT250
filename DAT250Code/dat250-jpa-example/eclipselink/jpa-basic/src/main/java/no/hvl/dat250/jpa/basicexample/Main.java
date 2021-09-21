@@ -9,7 +9,7 @@ import javax.persistence.Query;
 import no.hvl.dat250.jpa.basicexample.Credit.Person;
 
 public class Main {
-    private static final String PERSISTENCE_UNIT_NAME = "people";
+    private static final String PERSISTENCE_UNIT_NAME = "todo";
     private static EntityManagerFactory factory;
 
     public static void main(String[] args) {

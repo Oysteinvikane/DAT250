@@ -1,18 +1,36 @@
 package no.hvl.dat250.jpa.basicexample.Credit;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
-
-import lombok.Data;
+import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
-@Data
 public class Address {
 	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
+
 	public String street;
-	@Id
-	public int adnumber;
-	@ManyToOne
-	private Person owner;
+
+	@ManyToMany
+	public Set<Person> persons = new HashSet<Person>();
+
+	public Address() {
+	}
+
+	public void setStreet(String street) {
+		this.street = street;
+	}
+
+	public void addPerson(Person p) {
+		persons.add(p);
+	}
+
+	@Override
+	public String toString() {
+		return "Address{" +
+				"id=" + id +
+				", street='" + street + '\'' +
+				'}';
+	}
 }
