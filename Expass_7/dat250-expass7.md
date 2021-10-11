@@ -17,7 +17,7 @@ Receive:
 
 <img src="https://github.com/Oysteinvikane/DAT250/blob/main/Pictures/Expass7/recv.png" width="500" height="250">
 
-### Experiment 2: Queue Messaging
+### Experiment 3: Queue Messaging
 
 New Task:
 
@@ -27,7 +27,7 @@ Worker:
 
 <img src="https://github.com/Oysteinvikane/DAT250/blob/main/Pictures/Expass7/worker.png" width="500" height="250">
 
-### Topics
+### Experiment 4: Topics
 
 Emit log:
 
